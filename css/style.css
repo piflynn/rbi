@@ -15,10 +15,6 @@ body {
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
 }
 
-small {
-  color: #fff;
-}
-
 .wrapper {
   width: 100%;
   height: 100%; /* For at least Firefox */
@@ -29,10 +25,6 @@ small {
   background-repeat:repeat;
 }
 
-.jumbotron {
-  background: rgba(0,0,0,.7);
-}
-
 .navbar-nav {
   float: right;
 }
@@ -41,5 +33,23 @@ small {
   width: 100%;
   position: fixed;
   bottom: 0;
+}
+
+
+/* colors */
+small {
+  color: #fff;
+}
+
+i {
+  color: white;
+}
+
+i:hover {
+  color: #d9534f;
+} 
+
+.jumbotron {
+  background: rgba(0,0,0,.7);
 }
 
