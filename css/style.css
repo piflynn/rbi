@@ -25,10 +25,6 @@ body {
   background-repeat:repeat;
 }
 
-.navbar-nav {
-  float: right;
-}
-
 .footer {
   width: 100%;
   position: fixed;
@@ -36,7 +32,8 @@ body {
 }
 
 
-/* colors */
+/* colors & srtyles*/
+/* red - d9534f dark - c9302c */
 small {
   color: #fff;
 }
@@ -51,5 +48,25 @@ i:hover {
 
 .jumbotron {
   background: rgba(0,0,0,.7);
+  margin-top: 50px;
+}
+
+.navbar {
+  background: rgba(0,0,0,.7);
+}
+.navbar-toggler {
+  color: white;
+}
+
+.nav-item {
+  border-radius: 5px;
+}
+
+.nav-item a {
+  color: #fff;
+}
+
+li > a:hover {
+  background-color: #c9302c;
 }
 
