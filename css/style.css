@@ -25,10 +25,22 @@ body {
   background-repeat:repeat;
 }
 
+.mobile {
+  margin-top: 150px;
+}
+
 .footer {
   width: 100%;
   position: fixed;
   bottom: 0;
+}
+
+
+/* media queries */
+@media only screen and (max-width: 34em) {
+  .mobile {
+    display: all;
+  }
 }
 
 @media (max-width: 34em) {
@@ -46,25 +58,25 @@ display: none;
 }
 }
 
+@media (min-width: 50em) {
+  .mobile {
+    display: none;
+  }
+}
 
-/* colors & srtyles*/
+/* colors & styles*/
 /* red - d9534f dark - c9302c */
 small {
   color: #fff;
 }
 
 i {
-  color: white;
+  color: #fff;
 }
 
 i:hover {
   color: #d9534f;
 } 
-
-.jumbotron {
-  background: rgba(0,0,0,.7);
-  margin-top: 50px;
-}
 
 .navbar {
   background: rgba(0,0,0,.7);
@@ -84,4 +96,15 @@ i:hover {
 li > a:hover {
   background-color: #c9302c;
 }
+
+.jumbotron {
+  background: rgba(0,0,0,.7);
+  margin-top: 50px;
+}
+
+.mobile {
+  background: rgba(0,0,0,.7);
+}
+
+
 
