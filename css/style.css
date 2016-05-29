@@ -33,10 +33,6 @@ small {
   background: rgba(0,0,0,.7);
 }
 
-.spacer-bottom {
-  margin-bottom: 200px;
-}
-
 .navbar-nav {
   float: right;
 }
