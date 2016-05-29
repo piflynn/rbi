@@ -31,6 +31,12 @@ body {
   bottom: 0;
 }
 
+@media (max-width: 40em) {
+.jumbotron {
+display: none;
+}
+}
+
 
 /* colors & srtyles*/
 /* red - d9534f dark - c9302c */
