@@ -31,9 +31,18 @@ body {
   bottom: 0;
 }
 
-@media (max-width: 40em) {
+@media (max-width: 34em) {
+body {
+  background-image: none;
+}
 .jumbotron {
 display: none;
+}
+}
+
+@media (max-width: 50em) {
+  .jumbotron {
+  display: none;
 }
 }
 
