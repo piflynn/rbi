@@ -37,6 +37,7 @@ body {
 
 
 /* media queries */
+/*
 @media only screen and (max-width: 34em) {
   .mobile {
     display: all;
@@ -47,9 +48,14 @@ body {
 body {
   background-image: none;
 }
+
+li > a {
+  font-size: 75%;
+}
 .jumbotron {
 display: none;
 }
+
 }
 
 @media (max-width: 50em) {
@@ -63,6 +69,7 @@ display: none;
     display: none;
   }
 }
+*/
 
 /* colors & styles*/
 /* red - d9534f dark - c9302c */
@@ -78,6 +85,10 @@ i:hover {
   color: #d9534f;
 } 
 
+a {
+  color: #fff;
+}
+
 .navbar {
   background: rgba(0,0,0,.7);
 }
@@ -89,21 +100,42 @@ i:hover {
   border-radius: 5px;
 }
 
-.nav-item a {
+.nav-pills > li > a {
   color: #fff;
+  background-color: #d9534f;
 }
 
-li > a:hover {
+.nav-pills > li > a:hover {
+  color: #fff;
   background-color: #c9302c;
+}
+
+.nav-pills > .active > a, .nav-pills > .active > a:hover,  .nav-pills > .active > a:focus {
+  color: #fff;
+  background-color: #c9302c;
+}
+
+.nav-tabs >li > a:hover {
+  color: #d9534f;
+}
+
+.list-group-item {
+  background-color: rgba(0,0,0,.7);
 }
 
 .jumbotron {
   background: rgba(0,0,0,.7);
   margin-top: 50px;
+  margin-bottom: 125px;
 }
 
 .mobile {
   background: rgba(0,0,0,.7);
+}
+
+.footer {
+  background: rgba(0,0,0,.9);
+  padding-top: 25px;
 }
 
 
